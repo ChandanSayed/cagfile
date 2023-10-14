@@ -1,3 +1,4 @@
+import Button from './Button';
 import Container from './Container';
 import hero from '/public/images/hero.svg';
 
@@ -11,8 +12,8 @@ const Hero = () => {
           <span className="text-primaryColor">dveře na míru</span>
         </h1>
         <div className="flex flex-col gap-5 mt-10">
-          <Button classes="bg-white text-primaryColor md:hidden" text="Proč s Námi" />
-          <Button classes="bg-primaryColor text-white" text="Proč s Námi" />
+          <Button classes="h-[58px] text-lg font-extrabold bg-white text-primaryColor md:hidden" text="Proč s Námi" />
+          <Button classes="h-[58px] text-lg font-extrabold bg-primaryColor text-white" text="Proč s Námi" />
         </div>
       </Container>
       <svg className="absolute hidden md:block bottom-5 right-0 z-10" xmlns="http://www.w3.org/2000/svg" width="76" height="82" viewBox="0 0 76 82" fill="none">
@@ -36,9 +37,5 @@ const Hero = () => {
     </div>
   );
 };
-
-function Button({ classes, text }) {
-  return <button className={`text-lg font-extrabold rounded-full flex items-center justify-center w-full md:w-[287px] h-[58px] hover:bg-opacity-80 ${classes}`}>{text}</button>;
-}
 
 export default Hero;
