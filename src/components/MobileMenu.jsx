@@ -45,7 +45,7 @@ const MobileMenu = ({ classes, setShowMenu }) => {
         </li>
       </ul>
       <div className="flex flex-col gap-4 py-5 border-y border-gray-300">
-        <Button classes="bg-white text-primaryColor border border-primaryColor" text="Proč s námi" />
+        <Button classes="bg-white text-primaryColor border border-primaryColor h-9" text="Proč s námi" />
         <Button classes="bg-primaryColor text-white h-9" text="Konfigurátor dveří" />
       </div>
       <ContactLinks classes="text-start pt-6" activeWhiteBg={true} />
