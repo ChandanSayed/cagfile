@@ -93,7 +93,7 @@ const Header = () => {
               <path d="M0 18H24" stroke="white" strokeWidth="3" strokeLinejoin="round" />
             </svg>
           )}
-          <MobileMenu setShowMenu={setShowMenu} classes={`lg:hidden bg-white absolute top-[100px] ${showMenu ? 'right-0' : '-right-[225px]'}`} />
+          <MobileMenu setShowMenu={setShowMenu} classes={`lg:hidden bg-white absolute top-0 ${showMenu ? 'right-0' : '-right-[225px]'}`} />
         </nav>
       </Container>
     </header>

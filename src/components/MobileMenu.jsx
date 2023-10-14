@@ -3,7 +3,7 @@ import ContactLinks from './ContactLinks';
 
 const MobileMenu = ({ classes, setShowMenu }) => {
   return (
-    <div className={`${classes} p-5 h-[calc(100vh-100px)] transition-all`}>
+    <div className={`${classes} p-5 h-screen transition-all`}>
       <svg onClick={() => setShowMenu(false)} className="cursor-pointer mb-7 ml-auto" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
         <path d="M18 2L2 18" stroke="#008271" strokeWidth="3" />
         <path d="M18 18L2 2" stroke="#008271" strokeWidth="3" />
