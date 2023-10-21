@@ -33,7 +33,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className={`fixed top-0 w-full z-50 left-0 right-0 ${activeWhiteBg && 'bg-white pb-4'}`}>
+    <header className={`fixed top-0 w-full z-50 left-0 right-0 ${activeWhiteBg && 'bg-white pb-4  shadow-sm'}`}>
       <Container>
         <nav className="flex justify-between items-center lg:items-start py-4">
           <Link href={`/`}>
